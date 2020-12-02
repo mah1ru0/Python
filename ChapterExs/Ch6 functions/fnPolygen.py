@@ -1,3 +1,4 @@
+'''Refined PolyGen from lab'''
 
 import turtle
 

@@ -13,5 +13,3 @@ def testEqual(actual,expected,places=5):
             return True
     print('\tTest Failed: expected {} but got {}'.format(expected,actual))
     return False
-# this is a test
-# this is also a test
