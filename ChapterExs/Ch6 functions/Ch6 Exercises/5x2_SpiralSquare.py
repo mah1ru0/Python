@@ -1,7 +1,7 @@
 import turtle
 
-x = 500
-ang = 91
+x = 800
+ang = 132
 travle = 5
 
 def spiralSquare(t, dis):

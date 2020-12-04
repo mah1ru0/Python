@@ -31,7 +31,11 @@ def drawBar(t, height):
     t.begin_fill()               # start filling this shape
     t.left(90)
     t.forward(height)
+    t.penup()
+    t.fd(5)
     t.write(str(height))
+    t.bk(5)
+    t.pendown()
     t.right(90)
     t.forward(40)
     t.right(90)
