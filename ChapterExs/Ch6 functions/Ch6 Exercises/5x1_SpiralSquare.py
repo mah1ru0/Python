@@ -1,6 +1,6 @@
 import turtle
 
-x = 100
+x = 132
 
 def spiralSquare(t, dis):
         t.rt(90)

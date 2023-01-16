@@ -11,6 +11,6 @@ wn = turtle.Screen()
 wn.bgcolor("green")
 jen = turtle.Turtle()
 
-drawPoly(jen, 30, 10)
+drawPoly(jen, 50, 15)
 
 wn.exitonclick()

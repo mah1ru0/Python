@@ -1,7 +1,7 @@
 import turtle
 
-x = 800
-ang = 132
+x = 300
+ang = 111
 travle = 5
 
 def spiralSquare(t, dis):
@@ -13,7 +13,7 @@ def main():
     wn.bgcolor('black')
     burt = turtle.Turtle()
     burt.color('lightgreen')
-    burt.pensize(2)
+    burt.pensize(4)
     burt.speed(10)
     travle = 3
     for i in range(x):

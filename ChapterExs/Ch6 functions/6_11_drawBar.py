@@ -24,7 +24,13 @@ with a fixed width. Here is a simplified version of what we would like to create
 
 '''
 
+
+
+
 import turtle
+
+
+
 
 def drawBar(t, height):
     """ Get turtle t to draw one bar, of height. """
@@ -56,7 +62,16 @@ wn.bgcolor("lightgreen")
 
 tess = turtle.Turtle()           # create tess and set some attributes
 tess.color("blue")
-tess.fillcolor("red")
+
+if xs >= [200]:
+    tess.fillcolor("red")
+else: 
+    if xs >= [100]:
+        tess.fillcolor("yellow")
+    else:
+        if xs <= [100]:
+            tess.fillcolor("green")
+
 tess.pensize(3)
 
 
